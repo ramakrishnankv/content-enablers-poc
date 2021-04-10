@@ -1,0 +1,76 @@
+.footer {
+  background-color: var(--color-gray-1);
+  color: var(--color-white);
+  padding-top: 50px;
+  font-size: 12px;
+}
+
+.footerInner {
+  margin: 0 8%;
+}
+
+.footer .logoWrap #Path_9,
+.footer .logoWrap #Path_10,
+.footer .logoWrap #Path_11,
+.footer .logoWrap #Path_12,
+.footer .logoWrap #Path_13,
+.footer .logoWrap #Path_14,
+.footer .logoWrap #Path_15 {
+  fill: var(--color-white);
+}
+
+.footer .logoWrap svg {
+  width: 250px;
+  height: 35px;
+}
+
+.footer a,
+.footer a:hover,
+.footer a:active,
+.footer a:focus {
+  color: var(--color-orange-1);
+}
+
+.footer .pay {
+  margin-right: 100px;
+  columns: 2 24px;
+}
+
+.footer .pay img {
+  break-inside: avoid;
+}
+
+.footer .copy {
+  padding: 20px 0;
+  background-color: var(--color-gray-2);
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Mobile Tablet styles */
+
+.mobile .footerInner,
+.tablet .footerInner {
+  max-width: var(--size-900);
+}
+
+.mobile .footer .linkItem {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+.mobile .footer .linkItem:not(:last-of-type)::after {
+  content: ' | ';
+  margin: 0 5px;
+  color: var(--color-orange-1);
+}
+
+.mobile .footer .linkSection {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.mobile .footer .pay {
+  columns: unset;
+}

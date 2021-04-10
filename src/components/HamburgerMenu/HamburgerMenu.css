@@ -1,0 +1,34 @@
+.hamMenu {
+  min-width: 245px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hamMenu .closeButton {
+  padding: 10px 20px;
+}
+
+.hamMenu .arrowIcon {
+  transform: rotate(-180deg);
+}
+
+.hamMenu .row {
+  border-bottom: var(--border-style-1);
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.hamMenu .row:first-of-type {
+  background-color: var(--color-gray-7);
+}
+
+.hamMenu .row.right {
+  justify-content: flex-end;
+}
+
+.hamMenu .row.center {
+  justify-content: center;
+}

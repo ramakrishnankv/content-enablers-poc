@@ -1,0 +1,22 @@
+.menuScroll {
+    margin-top: 14px;
+}
+
+.menuScroll .tabs .tab {
+    text-transform: none;
+    font-size: 14px;
+    font-family: var(--font-work-sans-medium);
+    white-space: nowrap;
+    max-width: none;
+}
+
+.menuScroll .menuScrollBar {
+    background-color: var(--color-white);
+}
+
+.mobile .menuScroll,
+.tablet .menuScroll {
+    margin-left: -20px;
+    margin-right: -20px;
+    max-width: 100vw;
+}

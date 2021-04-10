@@ -1,0 +1,149 @@
+.productCard {
+    max-width: 278px;
+    border-radius: var(--border-radius-6);
+    overflow: hidden;
+    border: var(--border-style-2);
+    box-shadow: var(--box-shadow-2);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    transform-origin: center;
+    cursor: pointer;
+    margin: 0 0 29px 17px;
+}
+
+.productCard:hover {
+    transform: scale(1.02);
+    box-shadow: var(--box-shadow-4);
+    background-color: var(--color-gray-6);
+}
+
+.productCard .cardInner {
+    border-radius: var(--border-radius-6);
+    overflow: hidden;
+}
+
+.productCard .cardImageSection {
+    position: relative;
+    width: 100%;
+}
+
+.productCard .cardImage {
+    height: 184px;
+    display: block;
+    transition: transform 0.6s ease-in;
+    transform-origin: bottom;
+    width: 100%;
+}
+
+.productCard:hover .cardImage {
+    transform: scale(1.05);
+}
+
+.productCard .cardTitleSection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(var(--color-rgb-blue-0), 0.7);
+    padding: 12px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.productCard .cardTitle {
+    color: var(--color-white);
+}
+
+.productCard .titleIcon {
+    width: 33px;
+    height: 21px;
+}
+
+.productCard .contentSection {
+    padding: 18px;
+    position: relative;
+    min-height: 144px;
+    max-height: 144px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    transform-style: preserve-3d;
+}
+
+.productCard .content {
+    font-family: var(--font-work-sans-semi-bold);
+}
+
+.productCard .cardPrice {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.productCard .cardPrice .currency {
+    font-family: var(--font-work-sans-medium);
+    font-size: 16px;
+}
+
+.productCard .cardPrice .price {
+    font-family: var(--font-work-sans-medium);
+    font-size: 30px;
+}
+
+.productCard .cardPrice .term {
+    font-size: 20px;
+}
+
+.productCard .buttonSection {
+    display: flex;
+    flex-wrap: nowrap;
+    border-top: var(--border-style-2);
+}
+
+.productCard .buttonSection button {
+    border-radius: 0;
+    border: none;
+    width: 50%;
+}
+
+.productCard .buttonSection button:hover {
+    width: 50%;
+}
+
+.productCard .subscribe {
+    background-color: var(--color-orange-1);
+}
+
+.productCard .subscribe:hover {
+    background-color: var(--color-orange-0);
+}
+
+.productCard .learn {
+    background-color: var(--color-white);
+}
+
+.productCard .learn:hover {
+    background-color: var(--color-gray-7);
+}
+
+/* Mobile styles */
+
+.mobile .productCard,
+.tablet .productCard {
+    min-width: 278px;
+    margin: 0 20px 29px 0;
+}
+
+.mobile .productCard:first-child,
+.tablet .productCard:first-child {
+    margin-left: 20px;
+}
+
+.mobile .productCard:last-child,
+.tablet .productCard:last-child {
+    margin-right: 20px;
+}

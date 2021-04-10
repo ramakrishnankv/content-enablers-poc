@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-work-sans-regular);
+  color: var(--color-gray-0);
+  letter-spacing: 0.3px;
+  line-height: 1.25;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--color-bright-blue-0);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

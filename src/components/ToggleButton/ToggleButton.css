@@ -1,0 +1,28 @@
+.toggleButton.buttonRoot {
+    font-family: var(--font-work-sans-regular);
+    font-size: 16px;
+    background-color: var(--color-rgb-gray-0);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    text-transform: unset;
+    line-height: normal;
+}
+
+.toggleButton .toggle {
+    padding: 8px 28px;
+}
+
+.toggleButton .toggle.selected {
+    background-color: var(--color-white);
+    border: var(--border-style-3);
+    border-radius: 20px;
+    color: var(--color-green-4);
+    font-family: var(--font-work-sans-semi-bold);
+    font-size: 16px;
+    box-shadow: var(--box-shadow-1);
+}

@@ -1,0 +1,8 @@
+.flagIcon {
+    margin-left: 10px;
+}
+
+.flagIcon svg {
+    width: 33px;
+    height: 21px;
+}

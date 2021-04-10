@@ -1,0 +1,55 @@
+.menuCourses {
+    background-color: var(--color-white);
+}
+
+.menuCourses .accordion {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+.menuCourses .accordion:first-child,
+.menuCourses .accordion:last-child {
+    margin: 0;
+}
+
+.menuCourses .accordion:not(:first-child) {
+    margin-top: 10px;
+}
+
+.menuCourses .accordion::before {
+    display: none;
+}
+
+.menuCourses .accordion .accrodionSummary {
+    min-height: auto;
+    padding: 10px 20px;
+}
+
+.menuCourses .accordion.selected .accrodionSummary {
+    color: var(--color-white);
+    background-color: var(--color-green-3);
+    border-radius: var(--border-radius-4);
+    box-shadow: var(--box-shadow-4);
+}
+
+.menuCourses .accordion.selected .accrodionSummary .expandIcon {
+    fill: var(--color-white);
+}
+
+.menuCourses .accordion .accrodionSummary > * {
+    margin: 0;
+}
+.menuCourses .accordion {
+    margin-top: 10px;
+}
+
+.menuCourses .accordion.expanded .accordionDetails {
+    padding-top: 20px;
+    border-bottom: var(--border-style-2);
+    display: block;
+}
+
+.menuCourses .accordion.expanded .accordionDetails .selectText {
+    margin-bottom: 10px;
+}

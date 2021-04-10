@@ -1,0 +1,31 @@
+.trustedBrands {
+  background-color: var(--color-white);
+  text-align: center;
+  margin: 20px -50px 0;
+  padding: 50px 8% 0;
+}
+
+.trustedBrands .brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+/* Mobile style */
+
+.mobile .trustedBrands,
+.tablet .trustedBrands {
+  margin: 20px -20px 0;
+  padding: 20px;
+}
+
+.mobile .trustedBrands .brands,
+.tablet .trustedBrands .brands {
+  padding: 10px 0;
+}
+
+.mobile .brands .brandIcon img,
+.tablet .brands .brandIcon img {
+  width: 40%;
+}

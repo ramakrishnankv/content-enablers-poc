@@ -1,0 +1,144 @@
+.productListCard {
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: var(--border-radius-6);
+    border: var(--border-style-2);
+    box-shadow: var(--box-shadow-2);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    transform-origin: center;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 16px 20px;
+}
+
+.productListCard:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.02) perspective(0px);
+    box-shadow: var(--box-shadow-4);
+    background-color: var(--color-gray-6);
+}
+
+.productListCard .contentSection {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    transform-style: preserve-3d;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.productListCard .content {
+    font-family: var(--font-work-sans-semi-bold);
+    flex-grow: 1;
+    padding-right: 8%;
+}
+
+.productListCard .cardPrice {
+    font-size: 30px;
+    white-space: nowrap;
+    padding-right: 8%;
+}
+
+.productListCard .cardPrice .currency {
+    font-family: var(--font-work-sans-medium);
+    font-size: 16px;
+}
+
+.productListCard .cardPrice .price {
+    font-family: var(--font-work-sans-medium);
+    font-size: 30px;
+}
+
+.productListCard .cardPrice .term {
+    font-size: 20px;
+}
+
+.productListCard .buttonSection {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.productListCard .buttonSection button {
+    border: none;
+    width: 50%;
+    white-space: nowrap;
+    padding: 12px 30px;
+}
+
+.productListCard .buttonSection button:not(:last-of-type) {
+    margin-right: 5px;
+}
+
+.productListCard .buttonSection button:hover {
+    width: 50%;
+}
+
+.productListCard .subscribe {
+    background-color: var(--color-orange-1);
+}
+
+.productListCard .subscribe:hover {
+    background-color: var(--color-orange-0);
+}
+
+/* Mobile style */
+
+.mobile .productListCard,
+.tablet .productListCard {
+    padding: 16px 10px;
+}
+
+.mobile .productListCard .contentSection,
+.tablet .productListCard .contentSection {
+    flex-grow: 6;
+}
+
+.mobile .productListCard .content,
+.tablet .productListCard .content {
+    font-size: 10px;
+}
+
+.mobile .productListCard .cardPrice,
+.tablet .productListCard .cardPrice {
+    font-size: 10px;
+}
+
+.mobile .productListCard .cardPrice .currency,
+.tablet .productListCard .cardPrice .currency {
+    font-size: 9px;
+}
+
+.mobile .productListCard .cardPrice .price,
+.tablet .productListCard .cardPrice .price {
+    font-size: 14px;
+}
+
+.mobile .productListCard .cardPrice .term,
+.tablet .productListCard .cardPrice .term {
+    font-size: 10px;
+    display: block;
+}
+
+.mobile .productListCard .buttonSection,
+.tablet .productListCard .buttonSection {
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.mobile .productListCard .buttonSection button,
+.tablet .productListCard .buttonSection button {
+    padding: 6px 10px;
+    width: 100%;
+}
+
+.mobile .productListCard .buttonSection button:not(:last-of-type),
+.tablet .productListCard .buttonSection button:not(:last-of-type) {
+    margin-right: 0;
+}

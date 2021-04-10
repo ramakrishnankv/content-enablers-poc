@@ -1,0 +1,61 @@
+.selectBoxWrap.selectInner {
+    border-radius: var(--border-radius-4);
+    width: auto;
+  }
+  
+  .selectBoxWrap .selectRoot .selectBox {
+    padding: 9px 30px 9px 14px;
+    min-height: 17px;
+    max-height: 17px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+  }
+  
+  .selectBoxWrap .selectRoot .selectBox:focus {
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .selectBoxWrap .selectRoot:after,
+  .selectBoxWrap .selectRoot:hover {
+    border: none;
+  }
+  
+  .selectBoxWrap .selectRoot:hover:not(.disabled)::before,
+  .selectBoxWrap .selectRoot::before {
+      border: none;
+  }
+
+  .menuList .menuItem {
+    padding-left: 43px;
+  }
+
+  .menuItem .optionIcon,
+  .selectBox .optionIcon {
+      max-height: 15px;
+      min-width: 23px;
+      overflow: hidden;
+      margin-right: 8px;
+      position: relative;
+      left: 0;
+      top: 2px;
+  }
+
+  .menuItem .optionIcon svg,
+  .selectBox .optionIcon svg {
+    height: 15px;
+    width: 23px;
+}
+
+.menuListItem.menuItem .optionIcon {
+    top: 0px;
+  }
+
+  .menuListItem.menuItem .optionIcon svg {
+    display: block;
+  }
+
+    

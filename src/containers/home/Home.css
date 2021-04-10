@@ -1,0 +1,39 @@
+.productLeft {
+    margin-top: 50px;
+    width: 110%;
+}
+
+.productRight {
+    margin-left: 81px;
+}
+
+.gridListButtons {
+    text-align: right;
+}
+
+.row.viewListRow {
+    margin-top: 2px;
+}
+
+.subsNote {
+    font-size: 12px;
+    color: var(--color-gray-4);
+}
+
+.productsSection {
+    margin-top: 30px;
+}
+
+/* Mobile styles  */
+
+.mobile .productLeft,
+.tablet .productLeft {
+    margin-top: 0;
+    width: 100%;
+}
+
+.mobile .productRight,
+.tablet .productRight {
+    margin: 0;
+    width: 100%;
+}

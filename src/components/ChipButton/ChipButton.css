@@ -1,0 +1,15 @@
+.chip.chipButton {
+    background-color: var(--color-white);
+    border: var(--border-style-3);
+    margin: 0 8px 10px 0;
+    font-family: var(--font-work-sans-medium);
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+.chip.chipButton.selected {
+    background-color: var(--color-green-4);
+    border: var(--border-style-3);
+    color: var(--color-white);
+}
+

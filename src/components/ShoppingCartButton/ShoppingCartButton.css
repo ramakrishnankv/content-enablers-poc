@@ -1,0 +1,12 @@
+.iconButton.cartIcon {
+    box-shadow: var(--box-shadow-2);
+    padding: 7px;
+    min-width: 37px;
+    min-height: 37px;
+    max-height: 37px;
+}
+
+.iconButton svg {
+    height: 20px;
+    width: 20px;
+}

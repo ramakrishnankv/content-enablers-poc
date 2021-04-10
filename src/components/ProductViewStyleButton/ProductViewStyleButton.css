@@ -1,0 +1,33 @@
+.iconButton.gridIcon,
+.iconButton.listIcon {
+    box-shadow: var(--box-shadow-2);
+    border: var(--border-style-2);
+    padding: 7px;
+    min-width: 37px;
+    min-height: 37px;
+    max-height: 37px;
+    margin-right: 12px;
+}
+
+.iconButton.selected {
+    border: var(--border-style-2);
+}
+
+.iconButton.gridIcon svg,
+.iconButton.listIcon svg {
+    fill: rgba(var(--color-rgb-black), 0.5);
+}
+
+.iconButton.selected svg,
+.iconButton.selected svg {
+    fill: rgba(var(--color-rgb-orange), 1);
+}
+
+.iconButton svg {
+    height: 20px;
+    width: 20px;
+}
+
+.iconButton.listIcon svg {
+    width: 23px;
+}

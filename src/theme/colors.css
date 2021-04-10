@@ -1,0 +1,45 @@
+:root {
+  /* COLORS */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-gray-0: #221F1F;
+  --color-gray-1: #4f5759;
+  --color-gray-2: #576062;
+  --color-gray-3: #999999;
+  --color-gray-4: #A5A5A5;
+  --color-gray-5: #cccccc;
+  --color-gray-6: #efefef;
+  --color-gray-7: #D4D4D4;
+  --color-gray-8: #F8F8F9;
+
+  --color-blue-0: #093f62;
+  --color-blue-1: #3381a4;
+  --color-blue-2: #a6dcf2;
+  --color-blue-3: #bfe7f5;
+  --color-blue-4: #eef8fc;
+  --color-bright-blue-0: #0073ee;
+  --color-orange-0: #ff9900;
+  --color-orange-1: #F3C465;
+  --color-green-3: #13984B;
+  --color-green-4: #00A84F;
+  --color-green-5: #81b84d;
+
+  /* RGB COLORS */
+  --color-rgb-white: 255, 255, 255;
+  --color-rgb-black: 0, 0, 0;
+  --color-rgb-orange: 241, 157, 57;
+  --color-rgb-gray-0: rgba(212, 212, 212, 0.55);
+  --color-rgb-blue-0: 14, 20, 103;
+
+  /* BOX SHADOW */
+  --box-shadow-1: 0 3px 6px 0 rgba(var(--color-rgb-black), 0.16); /* Header */
+  --box-shadow-2: 0 0 3px 0 rgba(var(--color-rgb-black), 0.26); /* Button, Product Card */
+  --box-shadow-3: 0 0 20px 0 rgba(var(--color-rgb-black), 0.20); /* page main */
+  --box-shadow-4: 0 3px 10px 0 rgba(var(--color-rgb-black), 0.32); /* MenuCourse, Product Card :hover */
+
+  /* BORDER STYLES */
+  --border-style-1: 1px solid rgba(var(--color-rgb-black), 0.1);
+  --border-style-2: 1px solid rgba(var(--color-rgb-black), 0.23);
+  --border-style-3: 1px solid var(--color-green-4);
+}

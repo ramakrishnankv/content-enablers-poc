@@ -1,0 +1,130 @@
+.header {
+  background-color: var(--color-white);
+  position: sticky;
+  top: 0;
+  display: grid;
+  box-shadow: var(--box-shadow-1);
+  z-index: 1000;
+}
+
+.headerInner .headerBar {
+  width: 100%;
+}
+
+.headerInner .headerBar > *:not(:last-child) {
+  margin-right: 30px;
+}
+
+.headerInner {
+  display: flex;
+  max-width: var(--size-1366);
+  padding: 20px 26px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logoWrap {
+  display: flex;
+}
+
+.searchWrap {
+  flex-grow: 1;
+}
+
+.search {
+  position: relative;
+  border: 1px solid var(--color-gray-4);
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-left: 0;
+  width: 100%;
+  max-width: 317px;
+}
+
+.searchIcon {
+  padding: 1px 8px 0;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  top: 0;
+}
+
+.searchInputRoot {
+  color: inherit;
+  width: 100%;
+}
+
+.searchInputRoot .searchInput {
+  font-size: 14px;
+  padding: 9px 50px 9px 16px;
+  width: '100%';
+}
+
+.selectBoxWrap.courseSelect {
+  min-width: 130px;
+  max-width: 130px;
+  background-color: var(--color-orange-1)
+}
+
+.selectBoxWrap.countrySelect {
+  min-width: 108px;
+  max-width: 108px;
+  box-shadow: var(--box-shadow-2);
+  border: var(--border-style-2);
+}
+
+.selectBoxWrap.countrySelect .selectBox {
+  padding-left: 10px;
+  width: 100%;
+}
+
+.selectBox .optionIcon .flagIcon {
+  margin-left: 0;
+}
+
+.menuItem .optionIcon .flagIcon {
+  margin-left: 0;
+}
+
+.button.primary {
+  max-height: 37px;
+  color: var(--color-white);
+}
+
+/* Mobile styles */
+.mobile .headerInner,
+.tablet .headerInner {
+  padding: 10px 4px;
+}
+
+.mobile .headerInner .headerBar,
+.tablet .headerInner .headerBar {
+  min-height: auto;
+}
+
+.mobile .headerBar .logoWrap svg,
+.tablet .headerBar .logoWrap svg {
+  max-width: 116px;
+  max-height: 12px;
+}
+
+.headerBar .hamButton {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  margin-left: 0;
+}
+
+.headerBar .hamButton svg {
+  width: 35px;
+  height: 35px;
+}
+
+.mobile .headerInner .headerBar > *:not(:last-child),
+.tablet .headerInner .headerBar > *:not(:last-child) {
+  margin-right: 20px;
+}
