@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/content-enablers-poc/static/css/main.b3ad1ece.chunk.css",
+    "main.js": "/content-enablers-poc/static/js/main.caf9ce86.chunk.js",
+    "main.js.map": "/content-enablers-poc/static/js/main.caf9ce86.chunk.js.map",
+    "runtime-main.js": "/content-enablers-poc/static/js/runtime-main.32dac5e2.js",
+    "runtime-main.js.map": "/content-enablers-poc/static/js/runtime-main.32dac5e2.js.map",
+    "static/js/2.f6cec086.chunk.js": "/content-enablers-poc/static/js/2.f6cec086.chunk.js",
+    "static/js/2.f6cec086.chunk.js.map": "/content-enablers-poc/static/js/2.f6cec086.chunk.js.map",
+    "static/js/3.8c0524ac.chunk.js": "/content-enablers-poc/static/js/3.8c0524ac.chunk.js",
+    "static/js/3.8c0524ac.chunk.js.map": "/content-enablers-poc/static/js/3.8c0524ac.chunk.js.map",
+    "index.html": "/content-enablers-poc/index.html",
+    "static/css/main.b3ad1ece.chunk.css.map": "/content-enablers-poc/static/css/main.b3ad1ece.chunk.css.map",
+    "static/js/2.f6cec086.chunk.js.LICENSE.txt": "/content-enablers-poc/static/js/2.f6cec086.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/content-enablers-poc/static/media/WorkSans-SemiBold.8cad3c8f.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32dac5e2.js",
+    "static/js/2.f6cec086.chunk.js",
+    "static/css/main.b3ad1ece.chunk.css",
+    "static/js/main.caf9ce86.chunk.js"
+  ]
+}
